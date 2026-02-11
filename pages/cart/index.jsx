@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Title from "../../components/ui/Title";
 import { useSelector, useDispatch } from "react-redux";
-import reset from "../../redux/cartSlice";
+import reset from "../../Redux/cartSlice";
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
   const dispatch = useDispatch();
